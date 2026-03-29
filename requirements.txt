@@ -1,0 +1,22 @@
+# Core
+torch>=2.2.0
+torchtext>=0.17.0
+
+# Data
+numpy>=1.26.0
+datasets>=2.18.0          # HuggingFace datasets (AG News)
+
+# Evaluation
+scikit-learn>=1.4.0       # downstream classification
+
+# Visualization (notebooks)
+matplotlib>=3.8.0
+seaborn>=0.13.0
+jupyter>=1.0.0
+
+# Config
+pyyaml>=6.0.1             # loading configs/*.yaml
+
+# Logging & experiment tracking
+tqdm>=4.66.0
+tensorboard>=2.16.0
